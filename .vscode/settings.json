@@ -1,3 +1,5 @@
 {
-    "codetour.showMarkers": false
+    "codetour.showMarkers": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/77db2923-324e-4dd5-91d9-8a1268e579a6/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/space-jam-a-new-legacy-Fullyapp",
+    "appService.deploySubpath": "."
 }
