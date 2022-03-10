@@ -47,8 +47,6 @@ function processPlayers(allPlayerStats)
         playerMap.get(playerName).push(per);
     }
 
-    window.alert("plop");
-
     // Add the players to the bench.
     displayPlayerBench();
 }
