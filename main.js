@@ -25,8 +25,7 @@ function processPlayers(allPlayerStats)
     allPlayerStatLines.shift();
 
     // Loop through the rows and create a map entry of player name to a list of player PER
-    for (var statLine of allPlayerStatLines)
-    {
+    for (var statLine of allPlayerStatLines) {
         // Get all individual stat values
         var stats = statLine.split(',');
         // If it's just an empty line, skip it
@@ -84,6 +83,8 @@ function displayPlayerBench()
 
         // Add the button to the bench
         bench.appendChild(newPlayer);
+
+
     }
 
     // Display cards for all players
@@ -144,7 +145,7 @@ function displayPlayerCards()
 // This function is called each time a player button is clicked. A player
 // button being clicked indicates the players is either moving to the court
 // or to the bench for a water break
-function movePlayers()
+function movePlayer()
 {
     // Don't let the coach change players during a quarter.
     if(quarterInPlay)
